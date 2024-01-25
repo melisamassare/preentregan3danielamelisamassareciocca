@@ -4,13 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-<!-- CSS BS -->
+    <meta name="description"
+        content="Tenemos una muy buena ubicación, donde vas a poder acceder desde diferentes puntos de referencia de facil acceso">
+    <title>Contacto - MelFotografía</title>
+    <!-- CSS BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="../css/estilo.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
+
+    <!-- Link de animación -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body class="container-fluid">
@@ -18,7 +23,7 @@
     <!-- header -->
     <header class="navbar navbar-expand-lg encabezado">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="../index.html">
                 <img class="imgLogo" src="../img/logo.png" alt="logo soymelph">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -29,9 +34,8 @@
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <a class="nav-link" href="sesiones.html">Sesiones</a>
-                        <a class="nav-link" href="/html/sesiones.html">Sesiones</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sesiones.html">Sesiones</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="testimonios.html">Testimonios</a>
@@ -47,12 +51,18 @@
         </nav>
     </header>
 
-
-
+    <!-- HERO -->
+    <section class="hero d-flex flex-column justify-content-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center melFotografia">
+                    <h1>Contáctate con este Estudio</h1>
+                    <p>Dejanos en el siguiente formulario tu información, y nos contactaremos de 24 a 72 hs</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <main>
-        <h1>Mel Fotografia</h1>
-
-        <h2 class="marron">Contacto</h2>
 
         <form>
             <label for="nombre">Nombre</label>
@@ -71,12 +81,21 @@
     </main>
 
     <footer>
-        <h3>Todos los derechos reservados</h3>
+
+        <ul class="nav justify-content-center  mb-3">
+
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+            <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-body-secondary">Contactame</a></li>
+            <li class="nav-item"><a href="ubicacion.html" class="nav-link px-2 text-body-secondary">Nuestra
+                    ubicación</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">&copy; 2024 Todos los derechos reservados</p>
+
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
