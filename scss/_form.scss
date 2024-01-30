@@ -1,31 +1,30 @@
 .form {
-    margin-top: 20px;
-  }
-  
-  label {
-    display: block;
-    font-weight: 5px;
-    color: sienna;
-  }
-  
-  textarea {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: 2px solid $color-fuentes;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  
-  .botonFormulario {
-    background-color: $color-fuentes;
-    color: $color-btn;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    margin-top: 10px;
-  }
-  
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  font-weight: 5px;
+  color: sienna;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid $color-fuentes;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.botonFormulario {
+  background-color: $color-fuentes;
+  color: $color-btn;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+}
