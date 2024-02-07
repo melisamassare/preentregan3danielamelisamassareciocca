@@ -1,9 +1,12 @@
 .cardcolor {
-    background-color: $color-fondo;
+  background-color: $color-fondo;
+}
+
+.btnCard {
+  background-color: $color-fuentes;
+  color: $color-fondo;
+
+  &:hover {
+    background-color: rgb(223, 96, 37);
   }
-  
-  .btnCard {
-    background-color: $color-fuentes;
-    color: $color-fondo;
-  }
-  
+}

@@ -1,17 +1,1 @@
-{
-    "version": 3,
-    "sourceRoot": "",
-    "sources": [
-        "../scss/_general.scss",
-        "../scss/_header.scss",
-        "../scss/_hero.scss",
-        "../scss/_cards.scss",
-        "../scss/_variables.scss",
-        "../scss/_div.scss",
-        "../scss/_mixin.scss",
-        "../scss/_form.scss"
-    ],
-    "names": [],
-    "mappings": "AAAA;EACI;;;AAGF;EACE;EACA;EACA;;;ACPJ;EACI;EACA;;;ACFJ;EACI;EACA;;;AAGF;EACE;EACA;EACA;;;ACRJ;EACI;;;AAGF;EACE,kBCLY;EDMZ,OCLU;;;ACDd;EACI;EACA,ODFY;ECGZ;EACA;;AAEA;EACE;;;AAIJ;EACE;EACA,ODbY;ECcZ;EACA;EACA;EACA;;;AAGF;EACC;ECpBC;EACA,OFFY;EEGZ;;;ACHJ;EACI;;;AAGF;EACE;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;;AAGF;EACE,kBHrBY;EGsBZ,OHpBQ;EGqBR;EACA;EACA;EACA;EACA;EACA",
-    "file": "estilo.css"
-}
+{"version":3,"sourceRoot":"","sources":["../scss/_general.scss","../scss/_header.scss","../scss/_hero.scss","../scss/_cards.scss","../scss/_variables.scss","../scss/_div.scss","../scss/_mixin.scss","../scss/_form.scss"],"names":[],"mappings":"AAAA;EACI;;;AAGF;EACE;EACA;EACA;;;ACPJ;EACI;EACA;;;ACFJ;EACI;EACA;;;AAGF;EACE;EACA;EACA;;;ACRJ;EACE;;;AAGF;EACE,kBCLc;EDMd,OCLY;;ADOZ;EACE;;;AETJ;AAAA;EAEE,ODFc;ECGd;;;AAGF;EACE,kBDNY;ECOZ;;AAGA;EACE;;;AAKJ;EACE;EACA;EACA;EACA;;;AAGF;EACE;ECxBE;EACA,OFFY;EEGZ;;;ACHJ;EACE;;;AAGF;EACE;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;;AAGF;EACE,kBHrBc;EGsBd,OHpBU;EGqBV;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE","file":"estilo.css"}

@@ -1,25 +1,28 @@
+.titulogrande,
+.introGaleria {
+  color: $color-fuentes;
+  text-align: center;
+}
+
 .titulogrande {
-    background-color: $color-fondo;
-    color: $color-fuentes;
-    text-align: center;
-    padding: 16px;
-  
-    h2 {
-      font-size: 3rem;
-    }
-  }
-  
-  .introGaleria {
+  background-color: $color-fondo;
+  padding: 16px;
+
+
+  h2 {
     font-size: 3rem;
-    color: $color-fuentes;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid $color-fuentes;
-    margin-bottom: 3rem;
   }
-  
-  .subtitulo {
-   padding: 16px;
-   @include anclas;
-  }
-  
+
+}
+
+.introGaleria {
+  font-size: 3rem;
+  padding: 20px;
+  border: 1px solid $color-fuentes;
+  margin-bottom: 3rem;
+}
+
+.subtitulo {
+  padding: 16px;
+  @include anclas;
+}
